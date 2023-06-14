@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="welcome-banner" id="hero">
+      <img class="img-banner" src="images/pexels-daniel-putzer-633409.jpg">
+      <h1>Welcome to my Portfolio</h1>
+      <p>Explore my work and get in touch with me for your next project.</p>
+      <a href="#contact" class="btn">Get in touch</a>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Carlo, a 23-year-old web developer proficient in HTML, CSS, JavaScript, PHP, SQL, and WordPress. With an insatiable curiosity and a passion for continuous learning, I thrive on improving my skills every day. Working in a team is where I truly excel, as it allows me to collaborate, brainstorm, and contribute diverse perspectives. I prioritize effective communication and take pride in creating clean, maintainable code that brings ideas to life. Web development is not just a job for me; it's a passion that fuels my desire to make a positive impact through my work.</p>
+    </section>
+    <section class="services" id="services">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>Javascript</li>
+        <li>Wordpress</li>
+      </ul>
+    </section>
+
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="images/bkb-scc.png" alt="Bike King Borders">
+            <h3>Bike King Borders</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/organicme-scc.png" alt="Organic Me">
+            <h3>Organic Me</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/active-scc.png" alt="Active Scotland">
+            <h3>Active Scotland</h3>
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="btn">View More</a>
+    </section>
+
+
+
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+    <div class="contact01 form01">
+      <h3>Send a Message</h3>
+      
+        <div class="formBox">
+          <div class="row50">
+            <div class="inputBox">
+              <span>First Name</span>
+              <input type="text" placeholder="Sergio">
+            </div>
+            <div class="inputBox">
+              <span>Last Name</span>
+              <input type="text" placeholder="Perez">
+            </div>
+          </div>
+
+          <div class="row50">
+            <div class="inputBox">
+              <span>Email</span>
+              <input type="text" placeholder="Sergioperez@gmail.com">
+            </div>
+            <div class="inputBox">
+              <span>Mobile</span>
+              <input type="text" placeholder="+44 077 5950 1234">
+            </div>
+          </div>
+
+          <div class="row100">
+            <div class="inputBox">
+              <span>Message</span>
+              <textarea placeholder="Write your message here..."></textarea>
+            </div>
+          </div>
+
+          <div class="row100">
+            <div class="inputBox">
+                <input type="submit" value="Submit">                   
+            </div>
+          </div>
+
+        </div>
+        
+      
+  </div>
+
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2021 My Portfolio. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+		$(document).ready(function(){
+			$('#home').animate({opacity: '0.5'}, "slow");
+			$('#home').animate({opacity: '1'}, "slow");
+			$('#home').animate({opacity: '0.5'}, "slow");
+			$('#home').animate({opacity: '1'}, "slow");
+		});
+	</script>
+</body>
+</html>
