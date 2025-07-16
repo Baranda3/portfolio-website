@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCX5CWQPQ1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WCX5CWQPQ1');
+  </script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied'
+    });
+  </script>
+
+  <!-- Consent function -->
+  <script>
+    function consentGrantedAdStorage() {
+      gtag('consent', 'update', {
+        'ad_storage': 'granted'
+      });
+    }
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="Description" content="Project showcase by Carlo Baranda.">
+  <meta property="og:title" content="CB3 - Proyectos">
+  <meta property="og:description" content="Explora mis proyectos como desarrollador web.">
+  <meta property="og:image" content="images/CB.png">
+  <title>CB3 - Mis Proyectos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="consentGrantedAdStorage()">Yes</button>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h1>Mis Proyectos</h1>
+
+      <div class="project-card">
+        <h2>🎬 Limelight Cinema</h2>
+        <img src="images/limelight.png" alt="Limelight Cinema screenshot" style="width: 100%; max-width: 600px;">
+        <p>Limelight Cinema es una aplicación web con login, lógica por edad (junior y adulto) y panel de administrador para gestionar películas.</p>
+        <ul>
+          <li>🛠️ Tecnologías: PHP, MySQL, HTML, CSS</li>
+          <li>👥 Roles: junior, adulto y administrador</li>
+        </ul>
+        <a href="https://github.com/Baranda3/limelight-cinema" target="_blank" class="btn">Ver código en GitHub</a>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>¿Quieres saber más? Escríbeme a <strong>cbaranda.dev@gmail.com</strong> o visita la sección de contacto en mi <a href="index.html">página principal</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Carlo Baranda. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
