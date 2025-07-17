@@ -21,7 +21,6 @@
     });
   </script>
 
-  <!-- Consent function -->
   <script>
     function consentGrantedAdStorage() {
       gtag('consent', 'update', {
@@ -31,11 +30,11 @@
   </script>
 
   <meta charset="UTF-8">
-  <meta name="Description" content="Project showcase by Carlo Baranda.">
-  <meta property="og:title" content="CB3 - Proyectos">
-  <meta property="og:description" content="Explora mis proyectos como desarrollador web.">
+  <meta name="description" content="Project showcase by Carlo Baranda">
+  <meta property="og:title" content="CB3 - Projects">
+  <meta property="og:description" content="Explore selected web development projects by Carlo Baranda.">
   <meta property="og:image" content="images/CB.png">
-  <title>CB3 - Mis Proyectos</title>
+  <title>CB3 - Projects</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -44,38 +43,41 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="projects">
-      <h1>Mis Proyectos</h1>
+      <h1>My Projects</h1>
 
       <div class="project-card">
         <h2>🎬 Limelight Cinema</h2>
-        <img src="images/limelight.png" alt="Limelight Cinema screenshot" style="width: 100%; max-width: 600px;">
-        <p>Limelight Cinema es una aplicación web con login, lógica por edad (junior y adulto) y panel de administrador para gestionar películas.</p>
+        <img src="images/limelight.png" alt="Limelight Cinema Screenshot" style="width: 100%; max-width: 600px;">
+        <p>
+          Limelight Cinema is a full-stack cinema website built with PHP and MySQL. It includes user authentication with logic that shows different content for juniors, adults, and admins. Admins have full access to a control panel for managing movies.
+        </p>
         <ul>
-          <li>🛠️ Tecnologías: PHP, MySQL, HTML, CSS</li>
-          <li>👥 Roles: junior, adulto y administrador</li>
+          <li>🛠️ Technologies: PHP, MySQL, HTML, CSS</li>
+          <li>👥 User Roles: Junior, Adult, Administrator</li>
         </ul>
-        <a href="https://github.com/Baranda3/limelight-cinema" target="_blank" class="btn">Ver código en GitHub</a>
+        <a href="https://github.com/Baranda3/limelight-cinema" target="_blank" class="btn">View Code on GitHub</a>
       </div>
-
     </section>
 
-    <section id="contact">
-      <h2>Contacto</h2>
-      <p>¿Quieres saber más? Escríbeme a <strong>cbaranda.dev@gmail.com</strong> o visita la sección de contacto en mi <a href="index.html">página principal</a>.</p>
+    <section id="contact" style="margin-top: 80px;">
+      <h2>Back to Portfolio</h2>
+      <p>If you'd like to return to my main portfolio, click the button below.</p>
+      <a href="index.html" class="btn">← Back to Home</a>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Carlo Baranda. Todos los derechos reservados.</p>
+    <p>&copy; 2025 Carlo Baranda. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
